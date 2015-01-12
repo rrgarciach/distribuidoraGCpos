@@ -9,4 +9,11 @@
     </author>
     <content src="index.html" />
     <access origin="*" />
+    <icon src="icon.png" />
+    
+    <feature name="SplashScreen">
+      <param name="android-package" value="org.apache.cordova.splashscreen.SplashScreen" />
+    </feature>
+    <preference name="SplashScreen" value="splash.png" />
+    <preference name="SplashScreenDelay" value="1500" />
 </widget>
