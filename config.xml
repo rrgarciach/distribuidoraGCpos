@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.developer.distribuidoragcpos" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Distribuidora GC POS</name>
+    <description>
+        Punta de Venta del sitio Distribidora GC en linea.
+    </description>
+    <author email="rrgarciach@gmail.com" href="http://developercats.com">
+        Ruy R. Garcia
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+</widget>
