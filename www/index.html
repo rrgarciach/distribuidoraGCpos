@@ -31,12 +31,16 @@
         <script type="text/javascript">
         document.addEventListener("deviceready", onDeviceReady, false);
 
-        function onDeviceReady() {
+        function loadURL() {
             var url = 'http://distribuidoragc.com/wp/pos/';
             var target = '_system';
             var options = 'location=no';
             var ref = window.open(url, target, options);
+        }
 
+        function onDeviceReady() {
+            setTimeout(loadURL, 3000);
+            /*
             ref.addEventListener('loadstop', function() {
                 alert('now will try to inject JS script...');
                 window.basePath = window.location.href.replace('index.html', '');
@@ -61,6 +65,7 @@
                     {code: "localStorage = window.localStorage; alert('local storage overrided!');" }
                     );
             });
+            */
         }
         </script>
         <script type="text/javascript" src="cordova.js"></script>
